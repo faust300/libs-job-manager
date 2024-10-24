@@ -1,0 +1,18 @@
+{
+  "name": "libs-job-manager",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "src/index.d.ts",
+  "scripts": {
+    "watch": "tsc -w",
+    "test:sync": "node ./dist/test:sync.js",
+    "test:async": "node ./dist/test:async.js"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
